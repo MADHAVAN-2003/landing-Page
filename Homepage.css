@@ -1,0 +1,491 @@
+ @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;700;800;900&display=swap');
+*{
+    margin: 1%;
+    padding: 0%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.top-bar{
+    border: 1px solid orange;
+    background-color: #FF9500;
+    height: 5vh;
+    width: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    /* border: 1px solid  black; */
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-links{
+    /* border: 1px solid  grey; */
+    height: 6vh;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-logo{
+    /* border: 1px solid yellow; */
+    height: 6vh;
+    width: 6%;
+}
+.nav-bar-logo > img{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar-links > span > a {
+    text-decoration: none;
+    color: #262626;
+}
+.nav-bar-buttons{
+    /* border: 1px solid  grey; */
+    height: 6vh;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-bar-signUp > button {
+    border: none;
+    width: 70px ;
+    height: 4vh;
+    background: transparent;
+}
+.nav-bar-login > button {
+    border: none;
+    width: 70px ;
+    height: 4vh;
+    background: #FF9500;
+    color: white;
+}
+.banner-content{
+    /* border: 1px solid black; */
+    height: 40vh;
+    width: 70%;
+    margin-left: 16%;
+    margin-top: 5%;
+}
+
+.unlock-potential{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 7vh;
+    width: 70%;
+    margin-left: 15%;
+}
+.unlock-potential-image{
+    /* border: 1px solid yellow; */
+    height: 4vh;
+    width: 5%;
+    margin-left: 5%;
+}
+.unlock-potential-image > img {
+    height: 100%;
+    width: 100%;
+}
+.banner-buttons{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 4%;
+    
+
+}
+.explore-Courses-btn > button{
+    border: none;
+    width: 120px ;
+    height: 5vh;
+    background: #FF9500;
+    color: white;
+    cursor: pointer;
+}
+.view-prices-btn > button{
+    border: none;
+    width: 120px ;
+    height: 4vh;
+    background: transparent;
+    cursor: pointer;
+}
+.company-clients{
+    /* border: 1px solid grey; */
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+
+.company-clients > img {
+    height: 100%;
+    width: 100%;
+}
+.benfits-parent {
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 100%;
+}
+
+.benefits-cards-parent{
+    /* border: 1px solid grey; */
+    height: 80vh;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.benfits-card{
+    /* border: 1px solid green; */
+    height: 35vh;
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+.benfits-card >  h2{
+    float: inline-end;
+    font-size: 35px;
+}
+
+.benfits-card-content{
+    /* border: 1px solid  red; */
+    height: 20vh;
+    width: 80%;
+    display: block;
+    margin-top: 20%;
+    margin-left: 10%;
+    
+}
+
+.benfits-card-content > p{
+    font-size: 14px;
+}
+
+
+.courses-parent{
+    /* border: 1px solid black; */
+    height: 230vh;
+    width: 100%;        
+}
+
+.courses-parent > button{
+    float: inline-end;
+    border:  none;
+    background: whitesmoke;
+    cursor: pointer;
+    height:  4vh;
+    width: 7%;
+}
+.courses-card-parent{
+     /* border: 1px solid grey; */
+     height: 200vh;
+     width: 98%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+}
+.courses-card{
+     /* border: 1px solid green; */
+     height: 60vh;
+     width: 40%;
+     background-color: whitesmoke;
+     padding: 1% ;
+}
+
+.course-card-image{
+    /* border: 1px solid violet; */
+    height: 30vh;
+    width: 98%;
+    padding-bottom: 1%;
+}
+
+.course-card-image > img{
+    height: 100%;
+    width: 98%;
+}
+.author{
+    float: inline-end;
+
+}
+.courses-card >  span{
+    font-size: 13px;
+}
+.Get-it-now-btn{
+    border: none;
+    height: 5vh;
+    width: 90%;
+    margin-top: 3%;
+    background: #FF9500;
+    cursor: pointer;
+    color: white;
+}
+
+.testimonial-parent{
+    /* border: 1px solid black; */
+    height: 110vh;
+    width: 100%;
+}
+
+.testimonial-parent > button{
+    float: inline-end;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    height:  4vh;
+    width: 7%;
+}
+.testimonial-card-parent{
+     /* border: 1px solid grey; */
+     height: 80vh;
+     width: 98%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+.testimonial-card{
+    /* border: 1px solid green; */
+    height: 30vh;
+    width: 40%;
+    background-color: whitesmoke;
+    padding: 1% ;
+}
+.testimonial-text{
+    /* border: 1px solid violet; */
+    height: 20vh;
+    width: 96%;
+}
+.testimonial-text > span{
+    font-size: 16px;
+}
+.testimonial-profile{
+    /* border: 1px solid red; */
+    height: 7vh;
+    width: 96%;
+    display: flex;
+    align-items: center;
+
+}
+.testimonial-profile-image{
+    /* border: 1px solid orange; */
+    height: 5vh;
+    width: 7%;
+}
+.testimonial-profile-image > img{
+    height: 100%;
+    width: 100%;
+}
+.testimonial-profile >  button{
+    background-color: #FF9500;
+    border: none;
+    cursor: pointer;
+    height:  5vh;
+    width: 25%;
+    margin-left: 55%;
+    color: white;
+}
+.our-pricing-parent{
+    /* border: 1px solid black; */
+    height: 150vh;
+}
+.pricing-text{
+    /* border: 1px solid mediumblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pricing-text-para{
+    /* border: 1px solid saddlebrown; */
+    height: 9vh;
+    width: 70%;
+}
+.princing-btn{
+    /* border: 1px solid goldenrod; */
+    height: 9vh;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.monthly-btn > button{
+    border: none;
+    height: 6vh;
+    width: 100px;
+    background-color: #FF9500;
+    cursor: pointer;
+    color: white;
+
+}
+.yearly-btn > button{
+    border: none;
+    height: 6vh;
+    width: 100px;
+    cursor: pointer;
+}
+.price-container{
+    /* border: 1px solid  darkgray; */
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.free-plan-parent{
+    /* border: 1px solid darkmagenta; */
+    height: 110vh;
+    width: 40%;
+    background-color: whitesmoke;
+
+}
+.pro-plan-parent{
+    /* border: 1px solid darkmagenta; */
+    height: 110vh;
+    width: 40%;
+    background-color: whitesmoke;
+}
+.free-plan-header{
+    /* border: 1px solid darkolivegreen; */
+    height: 6vh;
+    margin-top: 5%;
+    background-color: #FFEACC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid darkcyan; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.rate > h4{
+    font-size: 50px;
+}
+
+.rate > span{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.features-point{
+    /* border: 1px solid  darkgoldenrod; */
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.features-point >  span{
+    font-size: 14px;
+}
+
+.tick{
+    /* border: 1px solid khaki; */
+    height: 3vh;
+    width: 5%;
+    
+}
+.tick > img{
+    height: 100%;
+    width: 100%;
+}
+.free-plan-parent > button{
+    border: none;
+    background-color: #FF9500;
+    color: white;
+    height: 6vh;
+    width: 90%;
+    margin: 3% 2% 2% 4%;
+    cursor: pointer;
+}
+.pro-plan-parent > button{
+    border: none;
+    background-color: #FF9500;
+    color: white;
+    height: 6vh;
+    width: 90%;
+    margin: 3% 2% 2% 4%;
+    cursor: pointer;
+}
+
+.footer-parent{
+    /* border: 1px solid darkslategray; */
+    height: 40vh;
+    width: 100%;
+    background-color: whitesmoke; 
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.contact{
+    /* border: 1px solid green; */
+    height: 35vh;
+    width: 50%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+.contact-details-parent{
+    margin-top: 5%;
+
+}
+.contact-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.home{
+    /* border: 1px solid green; */
+    height: 35vh;
+    width: 20%;
+    
+}
+.about{
+    /* border: 1px solid green; */
+    height: 35vh;
+    width: 20%;
+}
+.socialprofile{
+    /* border: 1px solid green; */
+    height: 35vh;
+    width: 20%;
+}
+
+ul{
+    list-style: none;
+}
+
+.social-icons{
+    display: flex;
+}
+
+
+
+@media (max-width:425px){
+    .nav-bar-links > span{
+        display: none;
+    }
+    .nav-bar-logo{
+        height: 4vh;
+        width: auto;
+    }
+}
+
